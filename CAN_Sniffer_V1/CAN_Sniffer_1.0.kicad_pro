@@ -616,15 +616,11 @@
     ],
     [
       "59c5a176-706d-4662-8c21-34cab335a980",
-      "CAN Transceiver 1"
+      "CAN-Transceiver-1"
     ],
     [
-      "db1ee2a5-1d0a-4405-bb8d-0e37af88a4da",
-      "CAN Transceiver 2"
-    ],
-    [
-      "0bdfb272-d142-42a4-9079-62dc0e875bce",
-      "STM32_Nucleo"
+      "9fa897b0-bbfa-42ed-883e-ae8f021a79e6",
+      "STM-Nucleo"
     ]
   ],
   "text_variables": {}
