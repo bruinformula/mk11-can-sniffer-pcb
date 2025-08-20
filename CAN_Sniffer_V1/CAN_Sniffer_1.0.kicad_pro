@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3048,
+        0.4064,
+        0.508
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +219,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -597,6 +614,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -619,8 +644,24 @@
       "CAN-Transceiver-1"
     ],
     [
+      "a595fcef-79dc-47ac-8894-f92a4a37cf31",
+      "Power"
+    ],
+    [
       "9fa897b0-bbfa-42ed-883e-ae8f021a79e6",
       "STM-Nucleo"
+    ],
+    [
+      "b52e4a21-8085-4a5b-91ad-cda76ee5ac30",
+      "24V-5V-Buck-Converter"
+    ],
+    [
+      "11984be6-3055-47d4-aea0-5eeba7b3bd2c",
+      "Power-Mux"
+    ],
+    [
+      "9c8722bb-55ec-4f85-8c9d-b8af9e33ccbc",
+      "RJ45-connector"
     ]
   ],
   "text_variables": {}

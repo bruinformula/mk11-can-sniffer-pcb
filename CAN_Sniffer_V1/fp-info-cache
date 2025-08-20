@@ -1,4 +1,4 @@
-26443602246013995
+26483720767053192
 AP22653AW6-7_SOT-26
 IC6_AP22653AW6-7_DIO
 
@@ -2757,6 +2757,13 @@ MCP2562FDT-E/SN
 0
 8
 8
+CLF7045NIT-330M-D
+IND_CLF7045NIT-330M-D
+
+
+0
+2
+2
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -59247,6 +59254,34 @@ ceramic
 0
 3
 3
+DDZ13B-7
+SOD3716X145N
+SOD123
+Zener Diode
+0
+2
+2
+DESD5V0U1BA-7
+IC6_AP22653AW6-7_DIO
+
+AP22653AW6-7 
+0
+6
+6
+DESD5V0U1BA-7
+IC6_AP22653AW6-7_DIO-L
+
+AP22653AW6-7 
+0
+6
+6
+DESD5V0U1BA-7
+IC6_AP22653AW6-7_DIO-M
+
+AP22653AW6-7 
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -73072,6 +73107,48 @@ threaded screw
 0
 4
 1
+Mouser_Parts
+AbraconASD
+AbraconASD
+Crystal or Oscillator
+0
+4
+4
+Mouser_Parts
+MEM20800012800A
+MEM2080-00-128-00-A-6
+Connector
+0
+14
+14
+Mouser_Parts
+MEM20900014500A
+MEM2090-00-145-00-A-2
+Connector
+0
+15
+15
+Mouser_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+Mouser_Parts
+SOP65P640X120-8N
+PW0008A
+Integrated Circuit
+0
+8
+8
+NHD-C0216CZ-NSW-BBW-3V3
+NHDC0216CZNSWBBW3V3
+NHD-C0216CZ-NSW-BBW-3V3
+Display
+0
+12
+12
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -96494,6 +96571,41 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SQ2319CES_T1_GE3
+PMOSGSD_SOT-23_TO-236_VIS
+
+SQ2319CES-T1_GE3 
+0
+3
+3
+SQ2319CES_T1_GE3
+PMOSGSD_SOT-23_TO-236_VIS-L
+
+SQ2319CES-T1_GE3 
+0
+3
+3
+SQ2319CES_T1_GE3
+PMOSGSD_SOT-23_TO-236_VIS-M
+
+SQ2319CES-T1_GE3 
+0
+3
+3
+STM32F0_breakout
+Discovery
+
+
+0
+66
+33
+STM32F0_breakout
+MODULE_NUCLEO-F072RB
+
+
+0
+76
+76
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -98594,6 +98706,20 @@ Logo WEEE
 0
 0
 0
+TPD2E001DZDR
+TPD2E001DZDR
+TPD2E001DZDR-3
+Diode
+0
+4
+4
+TPS2121RUXR
+TPS2121RUXR
+TPS2121RUXR-3
+Integrated Circuit
+0
+12
+12
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -105685,3 +105811,38 @@ TC33X-2-103E
 0
 3
 3
+bfr_transformers
+WE-OLLT_RM10_L31.5W31.5W20.5
+<b>WE-OLLT Offline Flyback Transformers<br></b><br>Size: RM10,THT,10pins<br>LXWXH=31.5X31.5X20.5mm
+
+0
+11
+11
+haha funny
+YOSHINOYA_huge
+
+
+0
+0
+0
+haha funny
+YOSHINOYA_small
+
+
+0
+0
+0
+haha funny
+horton_huge
+
+
+0
+0
+0
+haha funny
+horton_small
+
+
+0
+0
+0
