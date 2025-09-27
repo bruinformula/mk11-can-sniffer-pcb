@@ -1,4 +1,4 @@
-26483720767053192
+26485485842956179
 AP22653AW6-7_SOT-26
 IC6_AP22653AW6-7_DIO
 
@@ -74444,6 +74444,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PD3S230LQ-7
+PD3S230LQ7
+PDI323_2024-8
+Schottky Diode
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -96593,13 +96600,6 @@ SQ2319CES-T1_GE3
 3
 3
 STM32F0_breakout
-Discovery
-
-
-0
-66
-33
-STM32F0_breakout
 MODULE_NUCLEO-F072RB
 
 
@@ -104985,6 +104985,13 @@ igbt diode module
 0
 25
 25
+USB1125-GF-B
+GCT_USB1125-GF-B_REVA
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

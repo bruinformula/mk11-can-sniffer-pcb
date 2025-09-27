@@ -5,6 +5,113 @@
 	(uuid "3cea85b9-e3f5-4277-89ce-87958882739f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -632,7 +739,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_capacitors:CL05B104KO5NNNC"
+		(symbol "bfr_capacitors:08051C104KAT4A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -654,7 +761,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -672,7 +779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
+			(property "Description" "100nF±10% X7R 25V JLCPCB Basic 0805 Capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -699,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/08051C104KAT4A.lib"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -708,7 +815,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Name" "CL05B104KO5NNNC"
+			(property "Sim.Name" "08051C104KAT4A"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -717,7 +824,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
+			(property "Pretty Name" "100nF 25V 0805 Capacitor"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -762,7 +869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser P/N" ""
+			(property "Mouser P/N" "581-08051C104KAT4A"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -771,7 +878,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC P/N" "C1525"
+			(property "LCSC P/N" "C28233"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -789,7 +896,7 @@
 					(hide yes)
 				)
 			)
-			(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -798,7 +905,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CL05B104KO5NNNC_0_1"
+			(symbol "08051C104KAT4A_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -824,7 +931,7 @@
 					)
 				)
 			)
-			(symbol "CL05B104KO5NNNC_1_1"
+			(symbol "08051C104KAT4A_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1931,131 +2038,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2157,12 +2139,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 93.98 60.96)
+		(at 91.44 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03d998fa-5637-46d1-96dc-a2e37d4e0361")
+		(uuid "043f73f5-1d69-4315-bfed-8996ceb66d94")
 	)
 	(junction
 		(at 123.19 83.82)
@@ -2177,10 +2260,16 @@
 		(uuid "31fc34c0-df1b-4dfb-8b81-a59f88b9ac59")
 	)
 	(junction
+		(at 133.35 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7e2873-eea7-43c3-951a-d5ea2a828447")
+	)
+	(junction
 		(at 81.28 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6673a270-b79e-4ee8-be24-64d667c880c1")
+		(uuid "7204aefa-89b4-4754-90f1-ed2491108897")
 	)
 	(junction
 		(at 130.81 88.9)
@@ -2189,10 +2278,34 @@
 		(uuid "8905d15c-4e1e-4b57-9eb8-110166676c58")
 	)
 	(junction
+		(at 133.35 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d7b05a1-0887-47ea-8be0-f3fb1e8d87a1")
+	)
+	(junction
 		(at 102.87 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3f6535a-5780-4d5f-a397-aa4ebb0388c0")
+	)
+	(junction
+		(at 87.63 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b694cf5c-8f14-4174-b85e-2a23754eb302")
+	)
+	(junction
+		(at 74.93 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8288be2-b9d5-47d9-95e0-5e538bacbb0d")
+	)
+	(junction
+		(at 74.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb82c91a-40dd-4011-a89d-9e43ba03ec41")
 	)
 	(no_connect
 		(at 116.84 68.58)
@@ -2200,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 172.72 101.6)
+			(xy 177.8 99.06) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2210,23 +2323,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 88.9) (xy 137.16 88.9)
+			(xy 130.81 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d93b2a2-3a23-4dbb-8e1c-b10f28552441")
-	)
-	(wire
-		(pts
-			(xy 78.74 87.63) (xy 81.28 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0defce8c-28ac-427c-b55b-99090ff5c0ba")
 	)
 	(wire
 		(pts
@@ -2250,7 +2353,27 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 172.72 91.44)
+			(xy 102.87 62.23) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1213bfc6-5ce9-439e-acb3-57a6a912b249")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1457d388-2fba-43d4-83b2-5012ee2066e3")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +2383,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 95.25) (xy 81.28 99.06)
+			(xy 133.35 88.9) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfb4dce-cc06-462a-b666-28696489640a")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 81.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 74.93) (xy 200.66 74.93)
+			(xy 198.12 74.93) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2280,27 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 102.87 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f846558-2397-45d9-bf12-1671e772ce55")
-	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 102.87 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb1f9f8-3f01-4f2f-939f-1d9da41d4e4e")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 137.16 83.82)
+			(xy 123.19 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 185.42 74.93)
+			(xy 185.42 74.93) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2340,23 +2453,53 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 62.23) (xy 102.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd40a9d-2aa3-45e4-8a2d-76f32f56c292")
+	)
+	(wire
+		(pts
 			(xy 81.28 87.63) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ff5e5aa-d6b0-40f6-a57e-d1e00bd83174")
+		(uuid "8c9e84c8-d474-4fb8-a929-a2f32e23b240")
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 172.72 81.28)
+			(xy 177.8 80.01) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "91f58cd3-a98a-42d6-8756-b84cd079b7c3")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922ddf82-9cff-4d58-88a0-7104adb680d4")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9346ae8c-f2cf-41f6-ba38-59649c3e707b")
 	)
 	(wire
 		(pts
@@ -2370,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 90.17 85.09)
+			(xy 71.12 85.09) (xy 74.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2533,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 82.55) (xy 90.17 82.55)
+			(xy 87.63 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a7553d-d8e3-4c78-8f51-40c81e28fdbc")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 172.72 69.85)
+			(xy 177.8 63.5) (xy 177.8 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2450,7 +2603,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 93.98 60.96)
+			(xy 64.77 87.63) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60228f0-68db-415c-b71f-a8e226de285a")
+	)
+	(wire
+		(pts
+			(xy 85.09 62.23) (xy 87.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2458,8 +2621,18 @@
 		)
 		(uuid "f208b922-75d7-49c4-94b5-bd3f72617b71")
 	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a6126f-8b42-4ff2-8636-d31090f12d47")
+	)
 	(label "TX"
-		(at 200.66 74.93 0)
+		(at 205.74 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2470,7 +2643,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 88.9 60.96 180)
+		(at 85.09 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2481,7 +2654,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape output)
-		(at 63.5 85.09 180)
+		(at 71.12 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2492,7 +2665,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 63.5 82.55 180)
+		(at 71.12 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2503,7 +2676,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 137.16 83.82 0)
+		(at 143.51 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,7 +2687,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 137.16 88.9 0)
+		(at 143.51 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2525,7 +2698,18 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 78.74 87.63 180)
+		(at 177.8 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8572cc1-83fd-48ee-9e0c-0e7329db272c")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 64.77 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2535,8 +2719,75 @@
 		(uuid "e9a360e0-b3ff-46ab-8186-1c07b9af777a")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07916d25-c768-49af-afa0-031a6e2c1cd4")
+		(property "Reference" "TP5"
+			(at 135.89 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANH"
+			(at 135.89 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b75fa1ea-2de0-46c0-b78d-e12daa311852")
+		)
+		(instances
+			(project "CAN_Sniffer_1.0"
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 172.72 95.25 90)
+		(at 177.8 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2545,7 +2796,7 @@
 		(fields_autoplaced yes)
 		(uuid "110656fd-bf13-4ba9-a2a1-48bf04e5ad6c")
 		(property "Reference" "D1"
-			(at 176.53 95.5674 90)
+			(at 181.61 95.5674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2805,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 176.53 98.1074 90)
+			(at 181.61 98.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2814,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 172.72 95.25 0)
+			(at 177.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2823,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf"
-			(at 172.72 95.25 0)
+			(at 177.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2832,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 172.72 95.25 0)
+			(at 177.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2841,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 95.25 0)
+			(at 177.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2850,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KRKT/386779"
-			(at 172.72 95.25 90)
+			(at 177.8 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,193 +2868,6 @@
 			(project "CAN_Sniffer_1.0"
 				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 93.98 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "221b61b0-5b5d-4948-ba32-6a5329656824")
-		(property "Reference" "C5"
-			(at 97.79 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 97.79 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 93.98 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 93.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 93.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 93.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 93.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 93.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 93.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 93.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C1525"
-			(at 93.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 93.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 93.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1552ce03-3571-40ab-9a9f-1882a248bc06")
-		)
-		(pin "1"
-			(uuid "f4ccf0e3-6c47-4cd8-81a3-07e93a4020ff")
-		)
-		(instances
-			(project ""
-				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2936,7 +3000,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT3906")
-		(at 175.26 74.93 180)
+		(at 180.34 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2945,7 +3009,7 @@
 		(fields_autoplaced yes)
 		(uuid "319697ff-77cc-4aa4-9651-6eb629412cbd")
 		(property "Reference" "Q1"
-			(at 170.18 73.6599 0)
+			(at 175.26 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3018,7 @@
 			)
 		)
 		(property "Value" "MMBT3906"
-			(at 170.18 76.1999 0)
+			(at 175.26 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3027,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 170.18 73.025 0)
+			(at 175.26 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3038,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
-			(at 175.26 74.93 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3048,7 @@
 			)
 		)
 		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
-			(at 175.26 74.93 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,6 +3069,73 @@
 			(project ""
 				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "376ed5a4-9611-40cd-bac1-40d48d38d32f")
+		(property "Reference" "TP6"
+			(at 135.89 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CANL"
+			(at 135.89 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1ae6cbd-bf25-47e8-a612-5846c944e791")
+		)
+		(instances
+			(project "CAN_Sniffer_1.0"
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3078,16 +3209,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 68.58 0)
+		(at 91.44 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "666f3c07-afe2-4e72-996a-aabf7244275e")
+		(uuid "6be43fa7-fa2f-40fa-8e3c-6d9f4cfa37cf")
 		(property "Reference" "#PWR03"
-			(at 93.98 74.93 0)
+			(at 91.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 73.66 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 68.58 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 68.58 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 68.58 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,10 +3262,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5af9467a-c2ec-440b-bf68-d5595c3ed801")
+			(uuid "d89174ba-1a13-430a-bd5f-6e2a7ec63726")
 		)
 		(instances
-			(project ""
+			(project "CAN_Sniffer_1.0"
 				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
 					(reference "#PWR03")
 					(unit 1)
@@ -3143,8 +3274,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7632d52b-0569-48f3-b52a-d3f247c8a160")
+		(property "Reference" "TP11"
+			(at 77.47 87.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RXD"
+			(at 77.47 89.6619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab4dd08-b241-40d3-b7da-00b6015256d4")
+		)
+		(instances
+			(project "CAN_Sniffer_1.0"
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8289d89e-b2d4-463c-b35a-bd56789db415")
+		(property "Reference" "TP10"
+			(at 77.47 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXD"
+			(at 77.47 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dceb13b3-413f-4f55-b378-cfa5eeb6f038")
+		)
+		(instances
+			(project "CAN_Sniffer_1.0"
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bfr_resistors:RMCF0603FT4K70")
-		(at 189.23 74.93 0)
+		(at 194.31 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3153,7 +3418,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1e969e6-8cad-4738-be5f-4a575934c412")
 		(property "Reference" "R2"
-			(at 189.23 68.58 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3426,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 189.23 71.12 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 189.23 77.47 0)
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 189.23 78.74 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3452,7 @@
 			)
 		)
 		(property "Description" "4.7kΩ 0603 JLCPCB Basic Resistor"
-			(at 189.23 74.93 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3461,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 189.23 80.01 0)
+			(at 194.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,16 +3470,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT4K70.lib"
-			(at 189.23 82.55 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3479,7 @@
 			)
 		)
 		(property "Sim.Name" "RMCF0603FT4K70"
-			(at 189.23 83.82 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3488,7 @@
 			)
 		)
 		(property "Pretty Name" "4.7kΩ 0603 Resistor"
-			(at 189.23 85.09 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3497,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 189.23 86.36 0)
+			(at 194.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3506,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 189.23 87.63 0)
+			(at 194.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3515,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 189.23 88.9 0)
+			(at 194.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3524,7 @@
 			)
 		)
 		(property "Digikey P/N" "RMCF0603FT4K70CT-ND"
-			(at 189.23 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3533,7 @@
 			)
 		)
 		(property "Mouser P/N" "708-RMCF0603FT4K70"
-			(at 189.23 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3542,7 @@
 			)
 		)
 		(property "LCSC P/N" "C23162"
-			(at 189.23 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3551,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 189.23 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3560,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 189.23 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,17 +3584,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 81.28 91.44 0)
+		(lib_id "bfr_capacitors:08051C104KAT4A")
+		(at 91.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9ed84d2-f725-4fad-b7bd-515bf71a2ba2")
-		(property "Reference" "C1"
-			(at 85.09 90.1699 0)
+		(uuid "a7ab3bc7-fb12-4ba8-b2e6-6889836306ed")
+		(property "Reference" "C5"
+			(at 95.25 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3603,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 85.09 92.7099 0)
+			(at 95.25 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,8 +3611,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 81.28 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 95.25 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,8 +3629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 81.28 91.44 0)
+		(property "Description" "100nF±10% X7R 25V JLCPCB Basic 0805 Capacitor"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3639,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 81.28 96.52 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3648,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 81.28 97.79 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,8 +3656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 81.28 99.06 0)
+		(property "Sim.Name" "08051C104KAT4A"
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,17 +3665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 81.28 101.6 0)
+		(property "Pretty Name" "100nF 25V 0805 Capacitor"
+			(at 91.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3675,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 81.28 102.87 0)
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3684,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 81.28 104.14 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3693,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 81.28 105.41 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3702,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 81.28 106.68 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,8 +3710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" ""
-			(at 81.28 106.68 0)
+		(property "Mouser P/N" "581-08051C104KAT4A"
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,8 +3719,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C1525"
-			(at 81.28 106.68 0)
+		(property "LCSC P/N" "C28233"
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3729,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 81.28 106.68 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,8 +3737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 81.28 106.68 0)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,81 +3747,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "33cdb663-948b-4595-8c15-ee39e4fbee79")
+			(uuid "2e9f704b-f4c4-477e-ab4d-f2193fd37e7b")
 		)
 		(pin "1"
-			(uuid "5e373255-538d-4772-a6a6-78e5f3296812")
+			(uuid "ecdefeee-ccc8-4a39-b142-ee6c325827b7")
 		)
 		(instances
 			(project "CAN_Sniffer_1.0"
 				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 172.72 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b442b5f1-09ce-48bf-b7d5-0e683932b0c2")
-		(property "Reference" "#PWR029"
-			(at 172.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96bb182b-1219-4810-9f60-b5228dd8ecd4")
-		)
-		(instances
-			(project ""
-				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
-					(reference "#PWR029")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3582,7 +3763,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 101.6 0)
+		(at 177.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3591,7 +3772,7 @@
 		(fields_autoplaced yes)
 		(uuid "e36bcdb8-0ccb-462c-9b3f-16e0481e0efc")
 		(property "Reference" "#PWR028"
-			(at 172.72 107.95 0)
+			(at 177.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,44 +3828,35 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_resistors:RMCF0603FT150R")
-		(at 172.72 85.09 90)
+		(lib_id "bfr_capacitors:08051C104KAT4A")
+		(at 81.28 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3df2052-aa00-4227-a7fe-0f5d6661e3c9")
-		(property "Reference" "R6"
-			(at 175.26 83.8199 90)
+		(uuid "e9694bd2-8c12-48f2-8302-8027c25996c4")
+		(property "Reference" "C1"
+			(at 85.09 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "150"
-			(at 175.26 86.3599 90)
+		(property "Value" "100n"
+			(at 85.09 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 175.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 176.53 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,8 +3864,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "150Ω 0603 JLCPCB Basic Resistor"
-			(at 172.72 85.09 0)
+		(property "Datasheet" ""
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 25V JLCPCB Basic 0805 Capacitor"
+			(at 81.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3883,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 177.8 85.09 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3892,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 179.07 85.09 0)
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,8 +3900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT150R.lib"
-			(at 180.34 85.09 0)
+		(property "Sim.Name" "08051C104KAT4A"
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,17 +3909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "RMCF0603FT150R"
-			(at 181.61 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "150Ω 0603 Resistor"
-			(at 182.88 85.09 0)
+		(property "Pretty Name" "100nF 25V 0805 Capacitor"
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3919,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 184.15 85.09 0)
+			(at 81.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3928,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 185.42 85.09 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3937,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 186.69 85.09 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,8 +3945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603FT150RCT-ND"
-			(at 187.96 85.09 0)
+		(property "Digikey P/N" ""
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,8 +3954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603FT150R"
-			(at 187.96 85.09 0)
+		(property "Mouser P/N" "581-08051C104KAT4A"
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,8 +3963,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C22808"
-			(at 187.96 85.09 0)
+		(property "LCSC P/N" "C28233"
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,6 +3973,187 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b276f17f-0a54-475b-a6eb-e515e5242d47")
+		)
+		(pin "1"
+			(uuid "9119caa2-ac35-4abc-8013-37762df49bbe")
+		)
+		(instances
+			(project ""
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 87.63 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef5d7953-8749-470d-8d7f-d429b042510e")
+		(property "Reference" "#FLG01"
+			(at 87.63 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aa916fb-7934-424e-965d-98b291ef917e")
+		)
+		(instances
+			(project ""
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/59c5a176-706d-4662-8c21-34cab335a980"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_resistors:RMCF0603FT150R")
+		(at 177.8 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3df2052-aa00-4227-a7fe-0f5d6661e3c9")
+		(property "Reference" "R6"
+			(at 180.34 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 180.34 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150Ω 0603 JLCPCB Basic Resistor"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT150R"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "150Ω 0603 Resistor"
 			(at 187.96 85.09 0)
 			(effects
 				(font
@@ -3809,8 +4162,71 @@
 				(hide yes)
 			)
 		)
+		(property "Qty/Unit" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 191.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT150RCT-ND"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT150R"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22808"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 187.96 85.09 0)
+			(at 193.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MCP2562FDT-E/SN"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -3881,7 +4297,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC TRANSCEIVER 1/1 8SOIC"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/microchip-technology/MCP2562FDT-E-SN/4860105"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "MCP2562FDT-E/SNCT-ND"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -3996,15 +4430,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0402FT120R.lib"
-			(at 130.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Name" "RMCF0402FT120R"
 			(at 132.08 76.2 0)
 			(effects
@@ -4016,24 +4441,6 @@
 		)
 		(property "Pretty Name" "120Ω 0402 Resistor"
 			(at 133.35 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 135.89 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
