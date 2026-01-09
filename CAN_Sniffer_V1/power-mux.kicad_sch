@@ -262,7 +262,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PD3S230LQ-7:PD3S230LQ-7"
+		(symbol "Diode:PMEG40T20ER"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -270,44 +273,31 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 6.858 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "PD3S230LQ-7"
-				(at 0 4.318 0)
+			(property "Value" "PMEG40T20ER"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "PD3S230LQ7"
-				(at 12.7 -93.65 0)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31751.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky Diode 30 V 2A Surface Mount PowerDI 323"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG40T20ER.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -316,63 +306,40 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.7"
-				(at 12.7 -393.65 0)
+			(property "Description" "40V, 2A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "621-PD3S230LQ-7"
-				(at 12.7 -493.65 0)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PD3S230LQ-7?qs=vdQOMtKMWaDhkf1xtelm%2FA%3D%3D"
-				(at 12.7 -593.65 0)
+			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PD3S230LQ-7"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PD3S230LQ-7_0_1"
+			(symbol "PMEG40T20ER_0_1"
 				(polyline
 					(pts
-						(xy 1.905 0.635) (xy 1.905 1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy 3.175 -1.27) (xy 3.175 -0.635)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -381,10 +348,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27) (xy 2.54 0) (xy 5.08 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -393,7 +360,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 2.54 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -404,9 +371,9 @@
 					)
 				)
 			)
-			(symbol "PD3S230LQ-7_1_1"
+			(symbol "PMEG40T20ER_1_1"
 				(pin passive line
-					(at 0 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -424,7 +391,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3691,6 +3658,12 @@
 		(uuid "75d5df7c-e7ad-4a52-8020-22b9fbf124e9")
 	)
 	(junction
+		(at 105.41 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c08d28a-0a06-4173-9d5b-9bb44cb5cec6")
+	)
+	(junction
 		(at 180.34 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3745,12 +3718,6 @@
 		(uuid "dd7ece3f-c943-4fd3-a688-43d23ed89157")
 	)
 	(junction
-		(at 101.6 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e60ab13f-a769-4bed-bb50-e2f39efcfa5d")
-	)
-	(junction
 		(at 69.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3803,16 +3770,6 @@
 			(type default)
 		)
 		(uuid "094f2b41-d403-4b75-af19-d8c4baed832e")
-	)
-	(wire
-		(pts
-			(xy 43.18 62.23) (xy 45.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b86174e-0024-4112-b3bf-da4ba8fe388b")
 	)
 	(wire
 		(pts
@@ -3906,7 +3863,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 101.6 90.17)
+			(xy 105.41 83.82) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3963,16 +3920,6 @@
 			(type default)
 		)
 		(uuid "38c3538a-6b55-445d-aa3d-8557c2b1e88b")
-	)
-	(wire
-		(pts
-			(xy 82.55 81.28) (xy 82.55 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4c8dce-ac9d-40f7-887e-fa8d0e7a8151")
 	)
 	(wire
 		(pts
@@ -4126,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 115.57 104.14)
+			(xy 105.41 104.14) (xy 115.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 104.14)
+			(xy 105.41 97.79) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4273,16 +4220,6 @@
 			(type default)
 		)
 		(uuid "8a7fcd26-7d33-4909-b8af-d56bd8bd69b1")
-	)
-	(wire
-		(pts
-			(xy 101.6 83.82) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa73cf3-4fc4-4243-9769-c43bfe421d86")
 	)
 	(wire
 		(pts
@@ -4366,7 +4303,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 83.82) (xy 101.6 83.82)
+			(xy 95.25 83.82) (xy 97.79 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 35.56 62.23)
+			(xy 35.56 62.23) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4503,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "eb3394af-c455-4516-a936-f3b1e41de131")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd73215-1b43-4fbb-a42f-654e20a0953a")
 	)
 	(wire
 		(pts
@@ -4557,7 +4504,7 @@
 	)
 	(hierarchical_label "5V_VSUP"
 		(shape input)
-		(at 97.79 83.82 180)
+		(at 95.25 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4568,7 +4515,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 34.29 62.23 180)
+		(at 35.56 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,7 +4751,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5817")
-		(at 101.6 93.98 270)
+		(at 105.41 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4813,7 +4760,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e598697-89e3-4d50-97bb-7af0a2b48b5d")
 		(property "Reference" "D3"
-			(at 104.14 92.3924 90)
+			(at 107.95 92.3924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4769,7 @@
 			)
 		)
 		(property "Value" "MBRA120ET3G"
-			(at 104.14 94.9324 90)
+			(at 107.95 94.9324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4778,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 97.155 93.98 0)
+			(at 100.965 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbra120et3-d.pdf"
-			(at 101.6 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +4796,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 20V 1A SMA"
-			(at 101.6 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4805,7 @@
 			)
 		)
 		(property "Mouser PN" "MBRA120ET3G"
-			(at 101.6 93.98 90)
+			(at 105.41 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4814,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/onsemi/MBRA120ET3G?qs=3JMERSakebpxyEF0miqDLQ%3D%3D&srsltid=AfmBOorHUs3U0aY5FgYfyQY2nJZMbm20r44N94gas6_FtPkWxmMa-o96"
-			(at 101.6 93.98 90)
+			(at 105.41 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4823,7 @@
 			)
 		)
 		(property "Digikey PN" "MBRA120ET3G"
-			(at 101.6 93.98 90)
+			(at 105.41 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4832,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/onsemi/MBRA120ET3G/920609"
-			(at 101.6 93.98 90)
+			(at 105.41 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,145 +5841,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PD3S230LQ-7:PD3S230LQ-7")
-		(at 43.18 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61271b75-466e-4b14-947b-ee028f780d9c")
-		(property "Reference" "D2"
-			(at 39.37 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD3S230LQ-7"
-			(at 39.37 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PD3S230LQ-7:PD3S230LQ7"
-			(at 30.48 -31.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31751.pdf"
-			(at 30.48 -131.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Diode 30 V 2A Surface Mount PowerDI 323"
-			(at 43.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 30.48 -331.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-PD3S230LQ-7"
-			(at 30.48 -431.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PD3S230LQ-7?qs=vdQOMtKMWaDhkf1xtelm%2FA%3D%3D"
-			(at 30.48 -531.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 30.48 -631.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PD3S230LQ-7"
-			(at 30.48 -731.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/PD3S230LQ-7?qs=vdQOMtKMWaDhkf1xtelm%2FA%3D%3D"
-			(at 43.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/diodes-incorporated/PD3S230LQ-7/4868784"
-			(at 43.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f804f56-1b05-4042-bc94-e1182358e188")
-		)
-		(pin "1"
-			(uuid "32a34148-c9fa-4986-8ef2-98a3b5e15584")
-		)
-		(instances
-			(project "CAN_Sniffer_1.0"
-				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/a595fcef-79dc-47ac-8894-f92a4a37cf31/11984be6-3055-47d4-aea0-5eeba7b3bd2c"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 82.55 81.28 0)
+		(at 82.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6041,7 +5851,7 @@
 		(fields_autoplaced yes)
 		(uuid "75457c6b-ad5f-4489-a383-e7c2e0e907ca")
 		(property "Reference" "#PWR027"
-			(at 82.55 87.63 0)
+			(at 82.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +5860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 86.36 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +5868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 81.28 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 81.28 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 81.28 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,6 +8589,74 @@
 			(project "CAN_Sniffer_1.0"
 				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/a595fcef-79dc-47ac-8894-f92a4a37cf31/11984be6-3055-47d4-aea0-5eeba7b3bd2c"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG40T20ER")
+		(at 101.6 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b2a059-7e57-4dc2-81ca-a08f9eb4772d")
+		(property "Reference" "D2"
+			(at 101.9175 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG40T20ER"
+			(at 101.9175 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 101.6 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG40T20ER.pdf"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V, 2A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5941f825-caed-4919-b0b5-52c8c5e68022")
+		)
+		(pin "2"
+			(uuid "090c48b6-b630-4152-9026-9ad5426de29a")
+		)
+		(instances
+			(project ""
+				(path "/e451ff56-2618-4e84-9d3d-2972ad7496ed/a595fcef-79dc-47ac-8894-f92a4a37cf31/11984be6-3055-47d4-aea0-5eeba7b3bd2c"
+					(reference "D2")
 					(unit 1)
 				)
 			)

@@ -2192,6 +2192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/diodes-incorporated/DDZ13B-7/700105"
+			(at 120.65 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "433ca510-ea3a-425f-a66c-c192615729fa")
 		)

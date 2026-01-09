@@ -2034,10 +2034,16 @@
 		(uuid "f7f74895-87da-44d5-b706-db126910771e")
 	)
 	(junction
-		(at 69.85 129.54)
+		(at 77.47 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4cdf9120-853f-4c1e-a3d5-d18d969dcbff")
+		(uuid "368a76f6-7071-4bab-80ac-27bc59f70ac1")
+	)
+	(junction
+		(at 77.47 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55c4863-9144-4432-a28d-83dceed9c5ac")
 	)
 	(no_connect
 		(at 154.94 77.47)
@@ -2164,10 +2170,6 @@
 		(uuid "94f8f10d-4863-452d-ac76-1c7e71fd21e2")
 	)
 	(no_connect
-		(at 86.36 132.08)
-		(uuid "95c408d2-c0aa-4b3b-8b08-5b494125f572")
-	)
-	(no_connect
 		(at 64.77 87.63)
 		(uuid "98d88147-c00f-4f88-b4f1-2596886dc07c")
 	)
@@ -2267,6 +2269,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 129.54) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1129b145-fb2f-4753-a573-1a741fcb9be3")
+	)
+	(wire
+		(pts
 			(xy 200.66 92.71) (xy 204.47 92.71)
 		)
 		(stroke
@@ -2287,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 138.43) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3e1872-08f0-417f-8fbf-2a9d7396d1d2")
+	)
+	(wire
+		(pts
 			(xy 200.66 97.79) (xy 204.47 97.79)
 		)
 		(stroke
@@ -2304,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "46d8f3c6-c9a5-4f55-959c-13f25013686c")
+	)
+	(wire
+		(pts
+			(xy 86.36 132.08) (xy 86.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638ed8f3-eb7e-4042-9582-888d8338bfd9")
 	)
 	(wire
 		(pts
@@ -2337,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 69.85 138.43)
+			(xy 77.47 137.16) (xy 77.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 129.54) (xy 69.85 129.54)
+			(xy 67.31 129.54) (xy 77.47 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2384,16 +2416,6 @@
 			(type default)
 		)
 		(uuid "9bd06029-cfc1-469a-911a-e384123ed58e")
-	)
-	(wire
-		(pts
-			(xy 69.85 129.54) (xy 86.36 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab107f45-a22e-4231-96f0-1eb151398f79")
 	)
 	(wire
 		(pts
@@ -2612,7 +2634,7 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:08051C104KAT4A")
-		(at 69.85 133.35 0)
+		(at 77.47 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2621,7 +2643,7 @@
 		(fields_autoplaced yes)
 		(uuid "29b39065-1927-4b76-bdde-dc55937bbb62")
 		(property "Reference" "C6"
-			(at 73.66 132.0799 0)
+			(at 81.28 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2652,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 134.6199 0)
+			(at 81.28 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2661,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 69.85 135.89 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 137.16 0)
+			(at 77.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2679,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 25V JLCPCB Basic 0805 Capacitor"
-			(at 69.85 133.35 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2688,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 69.85 138.43 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2697,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 69.85 139.7 0)
+			(at 77.47 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2706,7 @@
 			)
 		)
 		(property "Sim.Name" "08051C104KAT4A"
-			(at 69.85 142.24 0)
+			(at 77.47 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2715,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF 25V 0805 Capacitor"
-			(at 69.85 143.51 0)
+			(at 77.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2724,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 69.85 144.78 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2733,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 69.85 146.05 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2742,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 69.85 147.32 0)
+			(at 77.47 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2751,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 69.85 148.59 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2760,7 @@
 			)
 		)
 		(property "Mouser P/N" "581-08051C104KAT4A"
-			(at 69.85 148.59 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2769,7 @@
 			)
 		)
 		(property "LCSC P/N" "C28233"
-			(at 69.85 148.59 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2778,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 69.85 148.59 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2787,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
-			(at 69.85 148.59 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,10 +2818,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32e4b603-6784-4d48-859b-374262705568")
 		(property "Reference" "J1"
-			(at 90.805 137.16 0)
+			(at 104.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2828,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 90.805 134.62 0)
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 138.43 0)
+		(at 77.47 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2934,7 +2955,7 @@
 		(fields_autoplaced yes)
 		(uuid "5efa8990-e4b7-4241-b792-fe8957b747fa")
 		(property "Reference" "#PWR012"
-			(at 69.85 144.78 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 143.51 0)
+			(at 77.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 138.43 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +2981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 138.43 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 138.43 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
